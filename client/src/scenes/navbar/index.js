@@ -40,7 +40,6 @@ const Navbar = () => {
   const alt = theme.palette.background.alt;
 
   const fullName = `${user} ${user}`;
-  console.log(fullName)
 
   return (
     <FlexBetween padding="1rem 6%" backgroundColor={alt}>
@@ -57,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Sociopedia
+          Skywrite
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
