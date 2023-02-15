@@ -15,7 +15,7 @@ const LoginPage = () => {
         fontWeight="bold"
         fontSize="32px"
         color="primary">
-        Skywrite
+        Welcome To Skywrite
       </Typography>
     </Box>
     <Box
