@@ -52,7 +52,7 @@ app.use('/auth', authRoutes)
 app.use('/users', userRoutes)
 app.use('/posts', postRoutes)
 app.get("/", function(req, res) {
-  res.send("API111");
+  res.send("API");
 })
 // mongoose setup
 const PORT = process.env.PORT || 6001;
